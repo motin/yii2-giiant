@@ -9,9 +9,9 @@
 namespace schmunk42\giiant\base;
 
 
-use yii\base\Object;
+use yii\base\BaseObject;
 
-class Provider extends Object
+class Provider extends BaseObject
 {
     /**
      * @var \schmunk42\giiant\crud\Generator
